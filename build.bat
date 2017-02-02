@@ -19,5 +19,3 @@ set PROJECT_PATH=.
 mingw32-make DRIVE_LETTER="%DRIVE_LETTER%" CURRENT_DIR="%PROJECT_PATH%"
 
 
-Password.o: Password.h Password.cpp
-      $(COMPILE) Password.cpp
